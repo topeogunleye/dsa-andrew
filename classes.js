@@ -18,6 +18,8 @@ class Player {
     }
 }
 
+let player1 = new Player('John', 'cowboy');
+
 class Wizard extends Player {
     constructor(name, type) {
         super(name, type)
@@ -27,7 +29,7 @@ class Wizard extends Player {
     }
 }
 let wizard1 = new Wizard('Shelly', 'Healer');
-wizard1.play();
-wizard1.introduce();
+// wizard1.play();
+// wizard1.introduce();
 
 
